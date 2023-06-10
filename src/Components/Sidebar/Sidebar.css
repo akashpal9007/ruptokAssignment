@@ -1,0 +1,25 @@
+.Sidebar{
+    background: #064333;
+    color: white;
+    height: 100vh;
+    padding: 1rem;
+    width: 20vw;
+}
+.sidebar-opts>div{
+    padding: 0.8rem 0;
+}
+.sideopt{
+    display: flex;
+    align-items: center;
+}
+.sideopt>img{
+    padding-left: 0.5rem;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+    padding-right: 0.5rem;
+}
+.customer-sideopt{
+    background-color: #215c4a;
+    border-radius: 0.7rem;
+}

@@ -1,0 +1,51 @@
+.customer{
+    margin-top: 2rem;
+    padding-left: 1.2rem;
+    margin-right: 1rem;
+}
+.cust-head{
+    font-size: 1.2rem;
+}
+.customer-topbar{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.addCust-btn{
+    background: #064333;
+    color: white;
+    border: navajowhite;
+    padding: 0.7rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+.custName-col{
+    display: flex;
+}
+.custName-col>img{
+    width: 25px;
+    height: 25px;
+}
+.custName-col2{
+    display: flex;
+    flex-direction: column;
+}
+.custTable>Table{
+    width: 100%;
+    text-align: center;
+}
+.tableData{
+    text-align: center;
+    background: white;
+}
+.tableData>td{
+    border-radius: 0.5rem;
+}
+.delete-btn{
+    background: none;
+    border: 1px solid red;
+    cursor: pointer;
+    color: red;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+}

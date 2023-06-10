@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Components/Sidebar/Sidebar';
+import TopNavbar from './Components/TopNavbar/TopNavbar';
+import Customer from './Components/Customer/Customer';
+import BasicModal from './Components/CustomerModal/Modal';
+import ModalState from './Context/ModalState';
+import UserState from './Context/UserContext/UserState';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <UserState>
+    <ModalState>
+    <div className='App'>
+      <Sidebar />
+      <div className='app-r'>
+        <TopNavbar />
+        <Customer />
+      </div>
     </div>
+    <BasicModal />
+    </ModalState>
+    </UserState>
   );
 }
 

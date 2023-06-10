@@ -1,0 +1,59 @@
+.TopNavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem 0 0 0;
+    background-color: white;
+    align-items: center;
+}
+.sideopt-head{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.topnav-l, .topnav-r{
+    display: flex;
+}
+.topnav-l-head{
+    color: #167b61;
+}
+.topnav-r>input{
+    height: 1rem;
+}
+.topnav-l{
+    padding-left: 1rem;
+}
+.topnav-l>*{
+    margin-left: 0.3rem;
+}
+.hr{
+    color: black;
+}
+.topNav-p{
+    background-color: #064333;
+    height: 3rem;
+}
+.topnav-r>div>img{
+    width: 20px;
+    height: 20px;
+}
+.topnav-r{
+    display: flex;
+    align-items: center;
+}
+.topnav-r>div{
+    margin-right: 0.6rem;
+}
+.topnav-r-search{
+    display: flex;
+    align-items: center;
+    background-color: #dee5ed;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+.topnav-r-search>input{
+    border: none;
+    background: #dee5ed;
+    height: 100%;
+    width: 100%;
+}

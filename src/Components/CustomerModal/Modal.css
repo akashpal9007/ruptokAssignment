@@ -1,0 +1,44 @@
+.modal{
+    border-radius: 0.5rem;
+}
+.modal-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);;
+}
+.head{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.modal-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+}
+.modal-input>span{
+    font-size: 1.4rem;
+}
+.modal-bottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 0.5rem;
+}
+.modal-bottom>button{
+    margin-left: 0.5rem;
+}
+select{
+    width: 13.8rem;
+    height: 2.5rem;
+    border-color: lightgray;
+}
+option{
+    width: 13.8rem;
+    height: 2.5rem;
+    border: 0; 
+}
